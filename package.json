@@ -1,0 +1,19 @@
+{
+    "name": "io-senec-card",
+    "version": "1.0.0",
+    "description": "A custom card that trys to mirror the display of the SENEC device.",
+    "keywords": [
+        "home-assistant",
+        "homeassistant",
+        "hass",
+        "senec",
+        "lovelace",
+        "custom-cards"
+    ],
+    "repository": "https://github.com/io-debug/io-senec-card",
+    "author": "@io-debug",
+    "license": "MIT",
+    "dependencies": {
+        "lit-element": "^2.2.0"
+    }
+}
