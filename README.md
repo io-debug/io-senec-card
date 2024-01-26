@@ -18,13 +18,13 @@ A visual editor is provided to make the configuration as easy as possible.
 ## Example Configuration
 If you should not use the visual editor to configure the custom Card, here an Example-Configuration:
 
-  type: custom:io-senec-card
-    entities:
-    - sensor.senec_system_state
-    - sensor.senec_battery_charge_percent
-    - sensor.senec_battery_state_current
-    - sensor.senec_battery_state_voltage
-    - sensor.senec_battery_state_power
-    - sensor.senec_solar_generated_power
-    - sensor.senec_house_power
-    - sensor.senec_grid_state_power
+    type: custom:io-senec-card
+      entities:
+        - sensor.senec_system_state
+        - sensor.senec_battery_charge_percent
+        - sensor.senec_battery_state_current
+        - sensor.senec_battery_state_voltage
+        - sensor.senec_battery_state_power
+        - sensor.senec_solar_generated_power
+        - sensor.senec_house_power
+        - sensor.senec_grid_state_power
