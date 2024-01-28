@@ -1,6 +1,8 @@
 # Custom lovelace Card "SENEC Display"
 This custom lovelace Card for Home Assistant aims to rebuild the Display of Senec devices.
 
+As a basis for the custom Card the Image is used, that you could see, when looking at https://[ip-of-my-senec-device-in-my-local-network]/display.html.
+
 ![image](https://github.com/io-debug/io-senec-card/assets/139538558/95de9aea-7db2-4a7c-84c4-cf2a01ea6df3)
 
 ## Installation
@@ -12,7 +14,7 @@ A visual editor is provided to make the configuration as easy as possible.
 ## Notes regarding the current Version
 - The Card is currently just available in German
 - The LED "Störung" is just an indication. It's set, when the "Systemstatus" contains "Fehler".
-- Please note, that custom Cards are often not shown on Mobile Apps.
+- Please note, that custom Cards are often not shown on Mobile Apps of Home Assistant.
 
 
 ## Example Configuration
