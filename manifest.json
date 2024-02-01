@@ -4,7 +4,9 @@
     "codeowners": [
       "@io-debug"
     ],
-    "dependencies": [],
+    "dependencies": [
+        "lovelace"
+    ],
     "documentation": "https://github.com/io-debug/io-senec-card/blob/main/README.md",
     "issue_tracker": "https://github.com/io-debug/io-senec-cardy/issues",
     "requirements": [],
