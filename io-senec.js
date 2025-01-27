@@ -31,7 +31,12 @@ class IoSenecCard extends LitElement {
         var state = "";
 
         if (stateObj) {
-          state = String(stateObj.state);
+          // hardcoded rounding for all nummeric values
+          if (i > 0){
+            state = String(Math.round(stateObj.state * 100) / 100);
+          } else {
+            state = String(stateObj.state);
+          }
         }
       data[i] = state;
         /*
